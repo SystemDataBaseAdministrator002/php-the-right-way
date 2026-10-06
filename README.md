@@ -77,101 +77,101 @@
 3. Структура репозитория:
 
     ```text
-php-the-right-way/
-├── README.md
-├── .gitignore
-├── 01-php-setup/
-│   ├── README.md
-│   ├── index.php
-│   └── info.php
-├── 02-basic-syntax/
-│   ├── README.md
-│   └── index.php
-├── 03-constants-variables/
-│   ├── README.md
-│   └── index.php
-├── 04-data-types-casting/
-│   ├── README.md
-│   └── index.php
-├── 05-boolean/
-│   ├── README.md
-│   └── index.php
-├── 06-integer/
-│   ├── README.md
-│   └── index.php
-├── 07-float/
-│   ├── README.md
-│   └── index.php
-├── 08-string-heredoc-nowdoc/
-│   ├── README.md
-│   └── index.php
-├── 09-null/
-│   ├── README.md
-│   └── index.php
-├── 10-array/
-│   ├── README.md
-│   └── index.php
-├── 11-expressions/
-│   ├── README.md
-│   └── index.php
-├── 12-operators-p1/
-│   ├── README.md
-│   └── index.php
-├── 13-operators-p2/
-│   ├── README.md
-│   └── index.php
-├── 14-operator-precedence/
-│   ├── README.md
-│   └── index.php
-├── 15-control-structures-if-else/
-│   ├── README.md
-│   └── index.php
-├── 16-loops-break-continue/
-│   ├── README.md
-│   └── index.php
-├── 17-switch/
-│   ├── README.md
-│   └── index.php
-├── 18-match/
-│   ├── README.md
-│   └── index.php
-├── 19-return-declare-tickable/
-│   ├── README.md
-│   └── index.php
-├── 20-include-require/
-│   ├── README.md
-│   └── index.php
-├── 21-functions/
-│   ├── README.md
-│   └── index.php
-├── 22-function-params-variadic/
-│   ├── README.md
-│   └── index.php
-├── 23-variable-scope-static/
-│   ├── README.md
-│   └── index.php
-├── 24-closures-arrow-functions/
-│   ├── README.md
-│   └── index.php
-├── 25-dates-timezones/
-│   ├── README.md
-│   └── index.php
-├── 26-arrays-functions/
-│   ├── README.md
-│   └── index.php
-├── 27-php-ini/
-│   ├── README.md
-│   └── index.php
-├── 28-error-handling/
-│   ├── README.md
-│   └── index.php
-├── 29-apache-vhosts/
-│   ├── README.md
-│   └── notes.md
-└── 30-filesystem/
+    php-the-right-way/
     ├── README.md
-    └── index.php
-    ```
+    ├── .gitignore
+    ├── 01-php-setup/
+    │   ├── README.md
+    │   ├── index.php
+    │   └── info.php
+    ├── 02-basic-syntax/
+    │   ├── README.md
+    │   └── index.php
+    ├── 03-constants-variables/
+    │   ├── README.md
+    │   └── index.php
+    ├── 04-data-types-casting/
+    │   ├── README.md
+    │   └── index.php
+    ├── 05-boolean/
+    │   ├── README.md
+    │   └── index.php
+    ├── 06-integer/
+    │   ├── README.md
+    │   └── index.php
+    ├── 07-float/
+    │   ├── README.md
+    │   └── index.php
+    ├── 08-string-heredoc-nowdoc/
+    │   ├── README.md
+    │   └── index.php
+    ├── 09-null/
+    │   ├── README.md
+    │   └── index.php
+    ├── 10-array/
+    │   ├── README.md
+    │   └── index.php
+    ├── 11-expressions/
+    │   ├── README.md
+    │   └── index.php
+    ├── 12-operators-p1/
+    │   ├── README.md
+    │   └── index.php
+    ├── 13-operators-p2/
+    │   ├── README.md
+    │   └── index.php
+    ├── 14-operator-precedence/
+    │   ├── README.md
+    │   └── index.php
+    ├── 15-control-structures-if-else/
+    │   ├── README.md
+    │   └── index.php
+    ├── 16-loops-break-continue/
+    │   ├── README.md
+    │   └── index.php
+    ├── 17-switch/
+    │   ├── README.md
+    │   └── index.php
+    ├── 18-match/
+    │   ├── README.md
+    │   └── index.php
+    ├── 19-return-declare-tickable/
+    │   ├── README.md
+    │   └── index.php
+    ├── 20-include-require/
+    │   ├── README.md
+    │   └── index.php
+    ├── 21-functions/
+    │   ├── README.md
+    │   └── index.php
+    ├── 22-function-params-variadic/
+    │   ├── README.md
+    │   └── index.php
+    ├── 23-variable-scope-static/
+    │   ├── README.md
+    │   └── index.php
+    ├── 24-closures-arrow-functions/
+    │   ├── README.md
+    │   └── index.php
+    ├── 25-dates-timezones/
+    │   ├── README.md
+    │   └── index.php
+    ├── 26-arrays-functions/
+    │   ├── README.md
+    │   └── index.php
+    ├── 27-php-ini/
+    │   ├── README.md
+    │   └── index.php
+    ├── 28-error-handling/
+    │   ├── README.md
+    │   └── index.php
+    ├── 29-apache-vhosts/
+    │   ├── README.md
+    │   └── notes.md
+    └── 30-filesystem/
+        ├── README.md
+        └── index.php
+    ``` 
 
 4. Прогресс:
 
